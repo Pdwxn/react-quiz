@@ -96,7 +96,7 @@ export default function App() {
   );
 
   useEffect(() => {
-    fetch("http://localhost:8000/questions")
+    fetch("https://react-quiz-fake-api.vercel.app/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataRecived", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
