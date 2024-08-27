@@ -3,12 +3,12 @@ import Header from "./layout/Header";
 import Main from "./layout/Main";
 import Loader from "./status/Loader";
 import Errors from "./status/Error";
-import StartScreen from "./quiz/StartScreen";
+import StartScreen from "./screens/StartScreen";
 import Question from "./quiz/Question";
-import NextButton from "./quiz/NextButton";
+import NextButton from "./generalComponents/NextButton";
 import Progress from "./quiz/Progress";
-import FinishScreen from "./quiz/FinishScreen";
-import Timer from "./quiz/Timer";
+import FinishScreen from "./screens/FinishScreen";
+import Timer from "./generalComponents/Timer";
 import Footer from "./layout/Footer";
 
 const SECS_PER_QUESTION = 30;
