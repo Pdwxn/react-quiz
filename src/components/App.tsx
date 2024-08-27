@@ -51,8 +51,8 @@ function reducer(state: any, action: any) {
       };
     case "restart":
       return {
-        ...state,
-        question: state.questions,
+        ...initialState,
+        questions: state.questions,
         status: "ready",
       };
     case "newAnswer":

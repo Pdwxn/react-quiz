@@ -257,3 +257,68 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+
+  .main,
+  .app-header {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+  }
+
+  .counter {
+    margin: 3rem;
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1.6rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  .counter {
+    margin: 2rem;
+    font-size: 1.6rem;
+  }
+}
